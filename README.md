@@ -2,7 +2,7 @@
 
 ## Project overview
 
-The aim of this project is to build a model able to produce image captions stating from images. The model architecture is designed as encoder-decoder. The encoder part is resnet50 pretrained. The resnet50 is used to create the feature vector that later will be feed inside the decoder. The decoder part of the model is a RNN and specifically, a LSTM, chosen to ensure the best performances in the presence of long caption.
+The aim of this project is to build a model able to produce image captions stating from images. The model architecture is designed as encoder-decoder. The encoder part is resnet50 pretrained. The resnet50 is used to create the feature vector that later will be used as input of the decoder. The decoder part of the model is a RNN and specifically, a LSTM, chosen to ensure the best performances in the presence of long caption.
 
 <div style="text-align:center"><img src="./images/encoder-decoder.png" /></div>
 
